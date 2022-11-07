@@ -12,6 +12,7 @@ public class Trabajador {
 	}
 	
 	public void MandarAImprimir() {
+		// Siempre se devolverá la misma instancia de la impresora
 		Impresora impresora = Impresora.getInstancia();
 		System.out.println("\nEl trabajador "+nombre+" ha mandado a imprimir\n***IMPRIMIENDO***");
 	}

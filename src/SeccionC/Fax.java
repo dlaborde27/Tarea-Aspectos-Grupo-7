@@ -1,10 +1,10 @@
 package SeccionC;
 
 public class Fax {
-	protected static Fax instancia;
+	private static Fax instancia;
 	public String mensaje;
 	
-	protected Fax(){
+	private Fax(){
 		instancia = this;
 	}
 	

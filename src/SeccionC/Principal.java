@@ -15,13 +15,14 @@ public class Principal {
 		fax2.mensaje = "mensaje de Fax2"; 
 		System.out.println(fax1.mensaje);
 		System.out.println(fax2.mensaje);
+		System.out.println("Verificando si las instancias son iguales con el metodo equals utilizando su hashCode: " +fax1.equals(fax2));
 		// Como vemos se presenta 2 veces el mensaje de Fax2 ya que está devolviendo una unica instancia, y se está cambiando el mensaje
 	
 		
 		//Ejemplo de la vida real
 		// Situacion: una miniempresa con una sola impresora y Fax, todos deben utilizar el mismo equipo de trabajo ya que solo existe uno de cada uno
 		// osea, en pocas palabras, en el programa se utilizará LA MISMA INSTANCIA, asi se ahorrarian recursos y sería una buena implementacion
-		System.out.println("Ejemplo de uso en la vida real");
+		System.out.println("\nEjemplo de uso en la vida real");
 		Trabajador trabajador1 = new Trabajador("Dario",20,"Administrador");
 		Trabajador trabajador2 = new Trabajador("Jose",19,"Auxiliar de bodega");
 		Trabajador trabajador3 = new Trabajador("Jorge",21,"Jefe de sistemas");

@@ -9,6 +9,7 @@ public class Principal {
 		
 		// Esto regresa la misma instancia, realmente conexion y conexion 1 hacen referencia a la misma instancia
 		ConexionBaseDeDatos conexion2 = ConexionBaseDeDatos.getInstancia();
+		System.out.println();
 		
 		
 		// Como veremos el codigo acontinuacion no es valido, ya que su constructor es privado

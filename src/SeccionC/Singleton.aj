@@ -1,8 +1,6 @@
 package SeccionC;
 
-import SeccionA.Singleton.ConexionBaseDeDatos;
-
-public aspect Singleton {
+privileged public aspect Singleton {
 	
 	pointcut mismoFax():
 		execution(Fax Fax.getInstancia());

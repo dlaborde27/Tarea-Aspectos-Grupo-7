@@ -1,11 +1,12 @@
 package SeccionC;
 
 public class Impresora {
-	protected static Impresora instancia;
+	private static Impresora instancia;
 	
-	protected Impresora(){
+	private Impresora(){
 		instancia = this;
 	}
+	
 	public static Impresora getInstancia() {
 		return instancia;
 	}
