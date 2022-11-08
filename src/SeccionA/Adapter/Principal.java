@@ -38,7 +38,7 @@ public class Principal {
 				+"1. Encender motor comun.\n"
 				+"2. Encender motor economico\n"
 				+"3. Encender motor Electrico\n"
-				+"4. Sali\n"
+				+"4. Salir\n"
 				+"Seleccione opcion:"
 				
 				
